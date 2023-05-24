@@ -22,4 +22,18 @@ variable const tidak bisa diganti
 	let tinggi = 170.5;
 	console.log('halo nama saya ${nama} dan umur saya ${umur}');
 -boolean
-
+	const jomblo = true
+		console.log('halo nama saya ${nama} dan umur saya ${umur} dan status saya saat ini ${jomblo}');
+-array
+	let hobi =["main musik", "ngoding", 12, true, {nama: "zaw"}];
+	console.log(hobi);
+-object
+	let person={
+		nama: "zaw",
+		umur: 23,
+		email: "zawxzero@gmail.com",
+		hobi: ["ngonding", "tidur", "game"],
+		sayHello: function() {
+			console.log("halo nama saya" + this.nama)
+		}
+	}
